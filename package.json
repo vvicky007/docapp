@@ -1,0 +1,38 @@
+{
+  "name": "doctor",
+  "version": "1.0.0",
+  "description": "NA",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon ssr-server.js",
+    "build": "next build",
+    "start": "next start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Vineeth",
+  "license": "ISC",
+  "dependencies": {
+    "@zeit/next-css": "^1.0.1",
+    "@zeit/next-less": "^1.0.1",
+    "@zeit/next-sass": "^1.0.1",
+    "body-parser": "^1.19.0",
+    "bootstrap": "^4.6.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "moment-range": "^4.0.2",
+    "mongodb": "^3.6.3",
+    "mongoose": "^5.11.13",
+    "next": "^10.0.5",
+    "next-images": "^1.7.0",
+    "nodemon": "^2.0.7",
+    "react": "^17.0.1",
+    "react-bootstrap": "^1.4.3",
+    "react-bootstrap-time-picker": "^2.0.1",
+    "react-datepicker": "^3.4.1",
+    "react-datetime-picker": "^3.0.4",
+    "react-daypicker": "^3.0.10",
+    "react-dom": "^17.0.1",
+    "react-input-calendar": "^0.5.4",
+    "url": "^0.11.0"
+  }
+}
